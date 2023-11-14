@@ -17,6 +17,9 @@ class WordFinder:
     >>> wf.random() in ['cat', 'dog', 'porcupine']
     True
 
+    >>> wfn = WordFinder("words.txt")
+    235887 words read
+
     """
 
     def __init__(self, filename):
